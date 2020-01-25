@@ -1,3 +1,81 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Networked Digital ICTs and the Humanitarian Arena: Challenges to Current Humanitarian Practice and Doctrine},
+  pdfauthor={Daniel Scarnecchia, Harvard University; Nathaniel A. Raymond, Yale University; Danielle N. Poole, Harvard University},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newenvironment{cslreferences}%
+  {\setlength{\parindent}{0pt}%
+  \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces}%
+  {\par}
+
+\title{Networked Digital ICTs and the Humanitarian Arena: Challenges to
+Current Humanitarian Practice and Doctrine}
+\author{Daniel Scarnecchia, Harvard University \and Nathaniel A.
+Raymond, Yale University \and Danielle N. Poole, Harvard University}
+\date{}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+Much of the literature on humanitarian practice is focused on the uses
+of digital technology by responders. This literature does not
+consistently examine how such technology is being used by other actorsin
+the humanitarian arena and its potential subsequent effects on
+humanitarian outcomes. This paper explores how networked digital ICTs
+may be mediating information in ways that directly affect the offline
+nature of humanitarian crises. We draw on evidence from migration
+studies, political science, and social network research to demonstrate
+that these technologies have the potential to shape the ways in which
+the displaced seek aid, the nature of crises, and humanitarian
+governance. From this we call on the sector to establish a research
+agenda which seeks to comprehensively understand the range of
+effectscreated by networked digital ICTs on the outcomes of aid.
+\end{abstract}
+
 \textbf{\emph{Draft. Please do not cite or circulate without
 permission.}}
 
@@ -82,7 +160,7 @@ the range of effects created by networked digital ICTs on
 humanitarianism.
 
 \hypertarget{the-changing-role-of-information-in-humanitarian-crises-and-responses}{%
-\section{The changing role of information in humanitarian crises and
+\subsection{The changing role of information in humanitarian crises and
 responses}\label{the-changing-role-of-information-in-humanitarian-crises-and-responses}}
 
 The traditional view of humanitarian information flows is one where NGOs
@@ -186,7 +264,7 @@ responsive to displaced populations that are digitally literate,
 mobile-connected, and using technology to coordinate and survive.
 
 \hypertarget{networked-digital-icts-and-the-humanitarian-arena}{%
-\section{Networked Digital ICTs and the Humanitarian
+\subsection{Networked Digital ICTs and the Humanitarian
 Arena}\label{networked-digital-icts-and-the-humanitarian-arena}}
 
 Before attempting to understand the barriers to access and information
@@ -202,7 +280,7 @@ the global discourse around crises and humanitarian operations in ways
 which affect the outcomes of aid.
 
 \hypertarget{networked-and-algorithmic-publics}{%
-\subsection{Networked and Algorithmic
+\subsubsection{Networked and Algorithmic
 Publics}\label{networked-and-algorithmic-publics}}
 
 Unlike previous forms of information dissemination, such as the radio,
@@ -268,7 +346,7 @@ information that algorithms determine are worth sharing (Crawford 2016,
 politics of their own.
 
 \hypertarget{humanitarian-governance-and-the-humanitarian-arena}{%
-\subsection{Humanitarian Governance and the Humanitarian
+\subsubsection{Humanitarian Governance and the Humanitarian
 Arena}\label{humanitarian-governance-and-the-humanitarian-arena}}
 
 In order to assess the effects of these new politics of the networked
@@ -334,7 +412,7 @@ explore the relationship between cyberspace and the contestation of the
 humanitarian arena in the next section.
 
 \hypertarget{humanitarianism-in-the-networked-age-evidence}{%
-\section{Humanitarianism in the Networked Age:
+\subsection{Humanitarianism in the Networked Age:
 Evidence}\label{humanitarianism-in-the-networked-age-evidence}}
 
 An examination of the impact of networked technology on three related
@@ -398,7 +476,7 @@ for various interpretation of international law undermine the rights of
 the displaced and crisis-affected.
 
 \hypertarget{the-impact-of-digital-icts-on-migration-and-displaced-populations}{%
-\subsection{The Impact of Digital ICTs on Migration and Displaced
+\subsubsection{The Impact of Digital ICTs on Migration and Displaced
 Populations}\label{the-impact-of-digital-icts-on-migration-and-displaced-populations}}
 
 Migrant networks as a whole and their use of networked digital ICTs have
@@ -475,7 +553,7 @@ networks of migrants in a manner that influences their decision-making
 and creates new benefits and risks.
 
 \hypertarget{the-impact-of-digital-icts-on-manifestations-of-political-violence}{%
-\subsection{The Impact of Digital ICTs on Manifestations of Political
+\subsubsection{The Impact of Digital ICTs on Manifestations of Political
 Violence}\label{the-impact-of-digital-icts-on-manifestations-of-political-violence}}
 
 Political violence and conflict are a major source of displacement, as
@@ -534,7 +612,7 @@ figures, extremists and everyday people in Myanmar (Specia and Mozur
 2017 ; Beech 2017).
 
 \hypertarget{the-impact-of-digital-icts-on-global-politics}{%
-\subsection{The Impact of Digital ICTs on Global
+\subsubsection{The Impact of Digital ICTs on Global
 Politics}\label{the-impact-of-digital-icts-on-global-politics}}
 
 If the potential exists for networked digital ICTs to disrupt politics
@@ -704,7 +782,7 @@ networked public and networked digital ICTs can undermine normative
 humanitarian action and be used to manipulate the humanitarian system.
 
 \hypertarget{a-research-agenda-for-humanitarianism-in-the-digital-age}{%
-\section{A Research Agenda for Humanitarianism in the Digital
+\subsection{A Research Agenda for Humanitarianism in the Digital
 Age}\label{a-research-agenda-for-humanitarianism-in-the-digital-age}}
 
 In the previous subsections, we have provided examples of the potential
@@ -725,8 +803,8 @@ are using these technologies, as much research already exists in this
 space.
 
 \hypertarget{barriers-and-facilitators-to-information-technology-access-and-use}{%
-\subsection{Barriers and facilitators to information technology access
-and
+\subsubsection{Barriers and facilitators to information technology
+access and
 use}\label{barriers-and-facilitators-to-information-technology-access-and-use}}
 
 The emergence ofcrisis-effected networked publics may give affected
@@ -849,7 +927,8 @@ humanitarian responder is unable to claim that they are adequately
 meeting needs in the 21st century.
 
 \hypertarget{digital-networked-icts-and-contestation-in-the-humanitarian-arena}{%
-\subsection{Digital Networked ICTs and Contestation in the Humanitarian
+\subsubsection{Digital Networked ICTs and Contestation in the
+Humanitarian
 Arena}\label{digital-networked-icts-and-contestation-in-the-humanitarian-arena}}
 
 Langdon Winner (1980, 123) famously asked: ``Do artifacts have
@@ -893,7 +972,7 @@ approaches to understanding how harmful effects emerge, order
 humanitarian governance, and affect the outcomes of aid.
 
 \hypertarget{conclusion}{%
-\section{Conclusion}\label{conclusion}}
+\subsection{Conclusion}\label{conclusion}}
 
 In the sections above, this paper has looked to literature outside the
 humanitarian field to draw inferences about phenomena that may be
@@ -934,8 +1013,8 @@ questions may determine what humanitarianism means and does in the 21st
 century.
 
 \hypertarget{references}{%
-\section*{References}\label{references}}
-\addcontentsline{toc}{section}{References}
+\subsection*{References}\label{references}}
+\addcontentsline{toc}{subsection}{References}
 
 \hypertarget{refs}{}
 \begin{cslreferences}
@@ -1474,3 +1553,5 @@ Zuckerberg, Mark. 2017. ``Mark Zuckerberg -as of This Morning, the
 Facebook Community Is...'' \emph{Facebook}.
 \url{https://www.facebook.com/zuck/posts/10103831654565331}.
 \end{cslreferences}
+
+\end{document}
